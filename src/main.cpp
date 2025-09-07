@@ -42,7 +42,7 @@ void setup() {
   uint64_t chipid = ESP.getEfuseMac();  // obtiene el ID único del chip
   sprintf(DEVICE_ID, "%llX", chipid);   // convierte a string en hexadecimal
 
-  Serial.println("VERSION SUBIDA ... PLATFORMIO .... OTA");
+  Serial.println("VERSION SUBIDA ... actualizada ELSER 123456 SIIIIII");
   
   /** Crear tareas en los núcleos
   xTaskCreatePinnedToCore(task1_run, "Task1", 3000, NULL, 1, NULL, 1);
